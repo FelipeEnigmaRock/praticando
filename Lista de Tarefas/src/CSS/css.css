@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-	height: 300px;
+	height: 700px;
 	width: 550px;
 	padding: 30px;
 	background-color: #efefee;
@@ -23,45 +23,31 @@ body {
 	flex-direction: column;
 }
 
-.paragrafos {
-	line-height: 40px;
-}
-
 h1 {
 	font-size: 2rem;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 }
 
-h2 {
-	font-size: 4rem;
+input {
+	padding: 5px;
+	width: 300px;
 	margin-bottom: 15px;
-}
-
-.buttons {
-	gap: 30px;
-	display: flex;
 }
 
 button {
-	padding: 10px;
-	font-weight: bold;
-	border-color: #000;
+	padding: 5px;
 	border-radius: 5px;
+	background: linear-gradient(to bottom,rgb(180, 180, 180) 5%, #000 100% );
+	color: #fff;
+	font-size: 15px;
 }
 
-button:nth-child(1):hover {
-	background-color: green;
-	color: #fff;
-}
-button:nth-child(2):hover {
-	background-color: red;
-	color: #fff;
-}
-button:nth-child(3):hover {
-	background-color: #000;
-	color: #fff;
+button:hover {
+	background: linear-gradient(to bottom, #000 5%, rgb(180, 180, 180) 100%);
+	background-color: rgb(65, 65, 65);
 }
 
-.pausado {
-	color: red;
+.items {
+	width: 300px;
 }
+
