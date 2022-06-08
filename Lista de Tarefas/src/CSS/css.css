@@ -34,7 +34,7 @@ input {
 	margin-bottom: 15px;
 }
 
-button {
+.add {
 	padding: 5px;
 	border-radius: 5px;
 	background: linear-gradient(to bottom,rgb(180, 180, 180) 5%, #000 100% );
@@ -42,9 +42,21 @@ button {
 	font-size: 15px;
 }
 
-button:hover {
+.add:hover {
 	background: linear-gradient(to bottom, #000 5%, rgb(180, 180, 180) 100%);
 	background-color: rgb(65, 65, 65);
+}
+
+.apagar {
+	padding:0 4px;
+	color: red;
+	border-radius: 3px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.apagar:hover {
+	background-color: #c9c9c9;
 }
 
 .items {
