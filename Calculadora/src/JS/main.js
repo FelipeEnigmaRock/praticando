@@ -9,20 +9,17 @@ function criaCalculadora() {
         },
 
         pressionaEnter() {
-            this.display.addEventListener('keyUp', e => {
-                console.log(e);
-                if (e.charCode === 13) {
+            this.display.addEventListener('keypress', e => {
+                if (e.keyCode === 13) {
                     this.realizaConta();
                 };
             });
         },
 
         realizaConta() {
-            let conta = this.display.value;
+            let conta = eval(this.display.value);
 
             try {
-                conta = eval(conta);
-
                 if (!conta) {
                     alert('Conta inválida');
                     return;
