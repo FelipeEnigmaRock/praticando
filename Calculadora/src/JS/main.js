@@ -77,7 +77,3 @@ function criaCalculadora() {
 
 const calculadora = criaCalculadora();
 calculadora.inicia();
-
-/* document.addEventListener('keypress', e => {
-    console.log(e);
-}) */
