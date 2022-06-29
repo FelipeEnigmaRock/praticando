@@ -14,6 +14,10 @@ class ValidaFormulario {
         e.preventDefault();
         
     }
+
+    camposSaoValidos() {
+        let valid = true;
+    }
 }
 
 const valida = new ValidaFormulario();
