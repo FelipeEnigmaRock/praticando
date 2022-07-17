@@ -25,7 +25,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #e7e7e7;
+    background-color: #fff;
 }
 
 #menu {
@@ -43,7 +43,7 @@ a:hover {
     display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1260px) {
     
     #menu {
         display: block;
@@ -83,15 +83,30 @@ a:hover {
     #hamburger {
         display: block;
         border-top: 2px solid;
-        width: 20px;
+        width: 31px;
     }
 
-    #hamburger::after, #hamburguer::before {
+    #hamburger::after, #hamburger::before {
         content: '';
         display: block;
-        width: 20px;
+        width: 31px;
         height: 2px;
-        background: blue;
+        background: currentColor;
         margin-top: 5px;
+        transition:0.3s ;
+        position: relative;
+    }
+
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(45deg);
+    }
+
+    #nav.active #hamburger::after {
+        transform: rotate(-45deg);
+        top: -7px;
     }
 }
