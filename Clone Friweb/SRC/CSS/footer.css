@@ -1,17 +1,68 @@
 #footer {
     display: flex;
-    height: 50vh;
+    height: auto;
     justify-content: center;
     padding-top:60px ;
     background-color: #38B0AC;
-    gap: 10px;
+    flex-wrap: wrap;
     color: #fff;
+}
+
+.justify {
+    display: flex;
+    background-color: #38B0AC;
+    align-items: center;
+    justify-content: center;
+}
+
+.parking-note {
+    display: flex;
+    justify-content: center;
+    color: #38B0AC;
+    width: 50rem;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 1.5rem;
 }
 
 .container {
     height: 300px;
     width: 300px;
-    background-color: rgb(255, 255, 255);
-    
+    background-color: #38B0AC;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.container p {
+    margin-top: 20px;
+    line-height: 1.8rem;
+}
+
+.container h5 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#menu-links {
+    list-style-type: none;
+    line-height: 1.8rem;
+}
+#menu-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu-links a:hover {
+    color: #aaaaaa;
+}
+
+.after-footer {
+    display: flex;
+    justify-content: center;
+    background-color: #2a8683;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px;
 }
 
