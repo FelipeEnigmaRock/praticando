@@ -68,7 +68,7 @@
     }
     
     #nav.active #menu {
-        height: calc(50vh - 70px);
+        height: auto;
         visibility: visible;
         overflow-y: auto;
         display: flex;

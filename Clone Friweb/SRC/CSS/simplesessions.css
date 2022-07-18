@@ -86,17 +86,23 @@ h1,h2,h3,h4 {
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
+    font-size: 1.1rem;
+    
+}
+
+#social a {
+    text-decoration: none;
+    color: #767676;
 }
 
 .h4-social {
-    padding-top:2rem;
+    padding:2rem 0 1.1rem 0;
     color: #38b0ac;
 }
 
 .fifth-container p {
     color: #767676;
-    padding-top: 1rem;
-    font-size: 1.1rem;
+    
 }
 
 .icon {
@@ -146,6 +152,14 @@ h1,h2,h3,h4 {
     width: 80vw;
     margin: 10px 0;
 }
+
+.fourth-container,
+.fifth-container,
+.sixth-container {
+    width: 100vw;
+    overflow:hidden ;
+}
+
 
 
 }
