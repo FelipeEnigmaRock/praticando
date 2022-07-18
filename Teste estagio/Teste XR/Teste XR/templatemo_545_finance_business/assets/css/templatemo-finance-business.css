@@ -254,9 +254,10 @@ header .navbar {
 	background-color: #fff!important;
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
-.background-header .navbar-brand h2 {
+.background-header .navbar-brand img {
 	color: #175da5!important;
 }
+
 .background-header .navbar-nav a.nav-link {
 	color: #1e1e1e!important;
 }
@@ -265,7 +266,7 @@ header .navbar {
 .background-header .navbar-nav .nav-link.current,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
-	color: #175da5!important;
+	color: #1faae1!important;
 }
 .navbar .navbar-brand {
 	float: 	left;
@@ -309,8 +310,8 @@ header .navbar {
 .navbar .navbar-nav .nav-link.current,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-	color: #175da5;
-	border-bottom: 3px solid #175da5;
+	color: #1faae1;
+	border-bottom: 3px solid #1faae1;
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
@@ -522,7 +523,7 @@ ul.slick-dots {
 /* Request Form */
 
 .request-form {
-	background-color: #175da5;
+	background: linear-gradient(#175da5 1%, #1faae1 100% );
 	padding: 40px 0px;
 	color: #fff;
 }
@@ -1297,6 +1298,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 @media (max-width: 992px) {
+
 	.navbar .navbar-brand {
 		position: absolute;
 		left: 30px;
@@ -1333,7 +1335,7 @@ footer .contact-form button.filled-button:hover {
 	.navbar .navbar-nav .nav-link.current,
 	.navbar .navbar-nav .nav-link.show,
 	.navbar .navbar-nav .show>.nav-link {
-		color: #175da5!important;
+		color: #1faae1!important;
 		border-bottom: none!important;
 	}
 }
