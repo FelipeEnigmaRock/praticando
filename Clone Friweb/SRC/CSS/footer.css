@@ -1,0 +1,17 @@
+#footer {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    padding-top:60px ;
+    background-color: #38B0AC;
+    gap: 10px;
+    color: #fff;
+}
+
+.container {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    
+}
+
