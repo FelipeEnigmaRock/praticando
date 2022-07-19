@@ -710,7 +710,7 @@ ul.slick-dots {
 
 .testimonials {
 	margin-top: 140px;
-	background-color: #f7f7f7;
+	background-color: #b6b6b6;
 	padding: 140px 0px;
 }
 .testimonial-item .inner-content {
@@ -741,6 +741,7 @@ ul.slick-dots {
 	max-width: 300px;
 	border-radius: 50%;
 	margin: 25px auto 0px auto;
+	box-shadow: 4px -5px 20px #000;
 }
 
 
@@ -765,6 +766,7 @@ ul.slick-dots {
 
 .callback-form {
 	margin-top: 140px;
+	border-radius: 10px;
 }
 
 .callback-form .contact-form {
