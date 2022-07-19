@@ -575,6 +575,14 @@ ul.slick-dots {
 	margin-bottom: 20px;
 }
 
+.container .service-information {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	margin: 3rem 0;
+
+}
+
 
 
 /* Fun Facts */
@@ -895,12 +903,10 @@ footer {
 	color: #fff;
 }
 
-footer h4 {
-	color: #fff;
-	font-size: 20px;
-	font-weight: 600;
-	letter-spacing: 0.25px;
-	margin-bottom: 35px;
+footer img {
+	height: 10rem;
+	width: 10rem;
+	margin: 1rem 0;
 }
 footer p {
 	color: #fff;
