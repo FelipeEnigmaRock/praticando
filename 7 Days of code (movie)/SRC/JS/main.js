@@ -1,5 +1,5 @@
 const content = document.querySelector('.movies');
-const mainContainer = document.querySelector('.movie-box');
+
 
 function renderMovie (movie) {
     const createContainer = document.createElement('div');
@@ -17,7 +17,11 @@ function renderMovie (movie) {
     createTitle.textContent = 'Batman (2022)';
     createContainer.appendChild(createTitle);
 
-    
+//parte em que eu travei a seguir
+
+    createContainer.classList.add('movie-title');
+    createContainer.appendChild(createContainer); // <==== parte que travei
+
 
 
 
