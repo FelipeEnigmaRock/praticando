@@ -20,6 +20,7 @@ h1,h2,h3,h4 {
 
 .first-container {
      background-color: #17162E;
+     width: 70%;
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -41,6 +42,42 @@ h1,h2,h3,h4 {
      margin-top: 2rem;
 }
 
-img {
+.movie-box {
+     width: 100%;
+     padding: 1rem;
+     margin-top: 3rem;
+     background-color: #1d1c3b;
+     display: flex ;
+     align-items: center;
+     justify-content: space-evenly;
+     -webkit-box-shadow: 11px 8px 25px -1px rgba(0,0,0,0.89); 
+     box-shadow: 11px 8px 25px -1px rgba(0,0,0,0.89);
+}
+
+.movie-box p {
+     width: 30rem;
+     margin-left: 4rem;
+     text-align: justify;
+}
+
+.circle-img {
      border-radius: 50%;
+}
+
+.avaliation-box {
+     display: flex;
+     margin: 1rem 0;
+}
+
+.avaliation-box p {
+     display: contents;
+}
+
+.second {
+     margin-right: 0.5rem;
+}
+
+.third {
+     margin: 0 0.5rem;
+     margin-left: 1.5rem;
 }
