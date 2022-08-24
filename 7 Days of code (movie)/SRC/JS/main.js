@@ -3,6 +3,7 @@ const content = document.querySelector('.movies');
 
 function renderMovie (movie) {
     const createContainer = document.createElement('div');
+    const secondContainer = document.createElement('div');
     const createImage = document.createElement('img');
     const createTitle = document.createElement('h2');
     const createP = document.createElement('p');
@@ -17,13 +18,10 @@ function renderMovie (movie) {
     createTitle.textContent = 'Batman (2022)';
     createContainer.appendChild(createTitle);
 
+    secondContainer.classList.add('movie-title');
+    createContainer.appendChild(secondContainer);
 
-
-    createContainer.classList.add('movie-title');
-    createContainer.appendChild(createContainer);
-
-
-
+    
 
 
 }
