@@ -1,30 +1,53 @@
 const content = document.querySelector('.movies');
 
-
 function renderMovie (movie) {
-    const createContainer = document.createElement('div');
-    const secondContainer = document.createElement('div');
-    const createImage = document.createElement('img');
-    const createTitle = document.createElement('h2');
-    const createP = document.createElement('p');
+  const createContainer = document.createElement('div');
+  const secondContainer = document.createElement('div');
+  const thirdContainer = document.createElement('div');
+  const createImage = document.createElement('img');
+  const starImage = document.createElement('img');
+  const heartImage = document.createElement('img');
+  const createTitle = document.createElement('h2');
+  const createP4Second = document.createElement('p');
+  const createP4third = document.createElement('p');
+  const createPfourth = document.createElement('p');
 
-    createContainer.classList.add('movie-box');
-    content.appendChild(createContainer);
 
-    createImage.classList.add('circle-img');
-    createImage.setAttribute('src', '/SRC/IMG/image 3.svg');
-    createContainer.appendChild(createImage);
+  createContainer.classList.add('movie-box');
+  content.appendChild(createContainer);
 
-    createTitle.textContent = 'Batman (2022)';
-    createContainer.appendChild(createTitle);
+  createImage.classList.add('circle-img');
+  createImage.setAttribute('src', '/SRC/IMG/image 3.svg');
+  createContainer.appendChild(createImage);
 
-    secondContainer.classList.add('movie-title');
-    createContainer.appendChild(secondContainer);
+  createTitle.textContent = 'Batman (2022)';
+  secondContainer.appendChild(createTitle);
 
-    
+  secondContainer.classList.add('movie-title');
+  createContainer.appendChild(secondContainer);
 
+  thirdContainer.classList.add('avaliation-box');
+  secondContainer.appendChild(thirdContainer);
+
+  starImage.classList.add('second');
+  starImage.setAttribute('src', '/SRC/IMG/Star.svg');
+  thirdContainer.appendChild(starImage);
+
+  createP4Second.textContent = '9.0';
+  thirdContainer.appendChild(createP4Second);
+
+  heartImage.classList.add('third');
+  heartImage.setAttribute('src', '/SRC/IMG/Eheart.svg');
+  thirdContainer.appendChild(heartImage);
+
+  createP4third.textContent = 'Favoritar';
+  thirdContainer.appendChild(createP4third);
+
+  createPfourth.textContent = 'Texto gigante Lorem Ipsum is simply dummy text of the printingLorem Ipsum is simply dummy text of the printingLorem Ipsum is simply dummy text of the printing';
+  createContainer.appendChild(createPfourth);
 
 }
+
 
 renderMovie();
 
