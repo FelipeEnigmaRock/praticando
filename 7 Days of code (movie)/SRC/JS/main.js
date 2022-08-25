@@ -1,5 +1,13 @@
 const content = document.querySelector('.movies');
 
+async function getPopularMovies() {
+  const url = 'https://api.themoviedb.org/3/movie/popular?api_key=7ff89e27e29590850bbe7b2cf7f4789a&language=en-US&page=1';
+  const fetchResponse = await fetch(url);
+  console.log(fetchResponse);
+}
+
+getPopularMovies();
+
 function renderMovie (movie) {
   const createContainer = document.createElement('div');
   const secondContainer = document.createElement('div');
